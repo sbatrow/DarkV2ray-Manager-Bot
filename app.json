@@ -11,7 +11,7 @@
     ],
     "website": "https://youtech.live",
     "repository": "https://github.com/sbatrow/DarkV2ray-Manager-Bot",
-    "success_url": "https://t.me/YouTech_Support",
+    "success_url": "https://t.me/YouTech_Support"
     "env": {
         "ADMINS": {
             "description": "Your Telegram ID use @my_id_bot",
