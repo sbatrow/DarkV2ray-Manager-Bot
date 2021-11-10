@@ -1,0 +1,12 @@
+[Unit]
+Description=dark-v2ray Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/local/dark-v2ray/
+ExecStart=/usr/local/dark-v2ray
+
+[Install]
+WantedBy=multi-user.target
