@@ -387,49 +387,36 @@ show_xray_status() {
 }
 
 show_usage() {
-    echo "dark-v2ray management script usage method: "
+    echo "Dark-V2ray-Manager management script usage method: "
     echo "------------------------------------------"
-    echo "dark-v2ray              - Display management menu (more functions)"
-    echo "dark-v2ray start        - Launch dark-v2ray panel"
-    echo "dark-v2ray stop         - Stop dark-v2ray panel"
-    echo "dark-v2ray restart      - Restart the dark-v2ray panel"
-    echo "dark-v2ray status       - View dark-v2ray status"
-    echo "dark-v2ray enable       - Set dark-v2ray to start automatically after booting"
-    echo "dark-v2ray disable      - Cancel the startup of dark-v2ray"
-    echo "dark-v2ray log          - View dark-v2ray log"
-    echo "dark-v2ray v2-ui        - Migrate the v2-ui account data of this machine to dark-v2ray"
-    echo "dark-v2ray update       - Update dark-v2ray panel"
-    echo "dark-v2ray install      - Install the dark-v2ray panel"
-    echo "dark-v2ray uninstall    - Uninstall the dark-v2ray panel"
+    echo "Dark-V2ray-Manager start        - Launch Dark-V2ray-Manager bot"
+    echo "Dark-V2ray-Manager stop         - Stop Dark-V2ray-Manager bot"
+    echo "Dark-V2ray-Manager restart      - Restart the Dark-V2ray-Manager bot"
+    echo "Dark-V2ray-Manager update       - Update Dark-V2ray-Manager bot"
+    echo "Dark-V2ray-Manager install      - Install the Dark-V2ray-Manager bot"
+    echo "Dark-V2ray-Manager uninstall    - Uninstall the Dark-V2ray-Manager bot"
     echo "------------------------------------------"
 }
 
 show_menu() {
+    echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+    echo -e "\E[44;1;37m               ♻️ DARKV2RAY MANAGER ♻️              \E[0m"
+    echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+    echo -e "\033[0;34m  #BY:      🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥       \033[0m"
+    echo -e "\033[0;34m                     SRI LANKA                    \033[0m"
+    echo -e "\033[0;34m                Telegram- @sibatrow               \033[0m"
+    echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+    echo ""
     echo -e "
-  ${green}dark-v2ray panel management script${plain}
-  ${green}0.${plain} Exit script
-————————————————
-  ${green}1.${plain} Install dark-v2ray
-  ${green}2.${plain} Update dark-v2ray
-  ${green}3.${plain} Uninstall dark-v2ray
-————————————————
-  ${green}4.${plain} Reset username and password
-  ${green}5.${plain} Reset panel settings
-  ${green}6.${plain} Set the panel port
-————————————————
-  ${green}7.${plain} Start dark-v2ray
-  ${green}8.${plain} Stop dark-v2ray
-  ${green}9.${plain} Restart dark-v2ray
- ${green}10.${plain} View dark-v2ray status
- ${green}11.${plain} View dark-v2ray log
-————————————————
- ${green}12.${plain} Set dark-v2ray to start automatically after booting
- ${green}13.${plain} Cancel the startup of dark-v2ray
-————————————————
- ${green}14.${plain} 一Key install bbr (latest kernel)
- "
+  [\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mINSTALL BOT \033[1;31m           [\033[1;36m5\033[1;31m] \033[1;37m• \033[1;33mSTART BOT \033[1;31m
+  [\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mUPDATE DARK-V2RAY \033[1;31m     [\033[1;36m6\033[1;31m] \033[1;37m• \033[1;33mSTOP BOT \033[1;31m
+  [\033[1;36m3\033[1;31m] \033[1;37m• \033[1;33mRESTART \033[1;31m               [\033[1;36m0\033[1;31m] \033[1;37m• \033[1;33mEXIT SCRIPT \033[1;31m
+  [\033[1;36m4\033[1;31m] \033[1;37m• \033[1;33mUNINSTALL \033[1;31m"
+  
+    echo ""
     show_status
-    echo && read -p "Please enter selection [0-14]: " num
+    echo && read -p "\033[1;32mWHAT DO YOU WANT TO DO \033[1;33m?\033[1;31m?\033[1;37m :" num
+
 
     case "${num}" in
         0) exit 0
@@ -438,29 +425,13 @@ show_menu() {
         ;;
         2) check_install && update
         ;;
-        3) check_install && uninstall
+		3) check_install && restart
         ;;
-        4) check_install && reset_user
+		4) check_install && uninstall
         ;;
-        5) check_install && reset_config
-        ;;
-        6) check_install && set_port
-        ;;
-        7) check_install && start
-        ;;
-        8) check_install && stop
-        ;;
-        9) check_install && restart
-        ;;
-        10) check_install && status
-        ;;
-        11) check_install && show_log
-        ;;
-        12) check_install && enable
-        ;;
-        13) check_install && disable
-        ;;
-        14) install_bbr
+        5) check_install && start
+		;;
+        6) check_install && stop
         ;;
         *) echo -e "${red}Please enter the correct number [0-14]${plain}"
         ;;
@@ -475,16 +446,6 @@ if [[ $# > 0 ]]; then
         "stop") check_install 0 && stop 0
         ;;
         "restart") check_install 0 && restart 0
-        ;;
-        "status") check_install 0 && status 0
-        ;;
-        "enable") check_install 0 && enable 0
-        ;;
-        "disable") check_install 0 && disable 0
-        ;;
-        "log") check_install 0 && show_log 0
-        ;;
-        "v2-ui") check_install 0 && migrate_v2_ui 0
         ;;
         "update") check_install 0 && update 0
         ;;
