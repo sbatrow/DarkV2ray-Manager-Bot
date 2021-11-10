@@ -11,13 +11,6 @@
 *  user on/off
 *  heroku bot hosting
 
-# 🎁Offer
-
-gets $100 in credit over 60 days
-
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b255f41c4d26&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
-
-
 [![Stars](https://img.shields.io/github/stars/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=yellow)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/stargazers)
 [![Forks](https://img.shields.io/github/forks/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=orange)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/fork)
 [![Size](https://img.shields.io/github/repo-size/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=green)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/)   
