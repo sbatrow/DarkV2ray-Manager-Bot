@@ -406,16 +406,14 @@ show_menu() {
     echo -e "\033[0;34m                     SRI LANKA                    \033[0m"
     echo -e "\033[0;34m                Telegram- @sibatrow               \033[0m"
     echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-    echo ""
+    show_status
     echo -e "
   [\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mINSTALL BOT \033[1;31m           [\033[1;36m5\033[1;31m] \033[1;37m• \033[1;33mSTART BOT \033[1;31m
   [\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mUPDATE DARK-V2RAY \033[1;31m     [\033[1;36m6\033[1;31m] \033[1;37m• \033[1;33mSTOP BOT \033[1;31m
   [\033[1;36m3\033[1;31m] \033[1;37m• \033[1;33mRESTART \033[1;31m               [\033[1;36m0\033[1;31m] \033[1;37m• \033[1;33mEXIT SCRIPT \033[1;31m
   [\033[1;36m4\033[1;31m] \033[1;37m• \033[1;33mUNINSTALL \033[1;31m"
-  
-    echo ""
-    show_status
-    echo && read -p "\033[1;32mWHAT DO YOU WANT TO DO \033[1;33m?\033[1;31m?\033[1;37m :" num
+ 
+    echo && read -p "WHAT DO YOU WANT TO DO [0-6]:" num
 
 
     case "${num}" in
@@ -425,9 +423,9 @@ show_menu() {
         ;;
         2) check_install && update
         ;;
-		3) check_install && restart
+        3) check_install && restart
         ;;
-		4) check_install && uninstall
+	4) check_install && uninstall
         ;;
         5) check_install && start
 		;;
