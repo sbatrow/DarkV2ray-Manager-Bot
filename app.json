@@ -19,7 +19,7 @@
             "required": true
         },
         "CHROMEDRIVER_PATH": {
-            "description": "crome path"
+            "description": "crome path",
             "value": "/app/.chromedriver/bin/chromedriver",
             "required": true
         },
