@@ -18,6 +18,17 @@ gets $100 in credit over 60 days
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b255f41c4d26&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 
+[![Stars](https://img.shields.io/github/stars/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=yellow)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/stargazers)
+[![Forks](https://img.shields.io/github/forks/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=orange)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/fork)
+[![Size](https://img.shields.io/github/repo-size/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=green)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/)   
+[![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/graphs/commit-activity)
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/sbatrow/DarkV2ray-Manager-Bot)   
+[![Contributors](https://img.shields.io/github/contributors/TeamUltroid/Ultroid?style=flat-square&color=green)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/graphs/contributors)        
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+[![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/blob/main/LICENSE)
+
+
 ## :book: Installation
 
 ```
@@ -28,16 +39,6 @@ bash <(curl -Ls https://raw.githubusercontent.com/sbatrow/DarkV2ray-Manager-Bot/
 ### Deploy Bot on Heroku🏃‍♂
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sbatrow/DarkV2ray-Manager-Bot)
-
-[![Stars](https://img.shields.io/github/stars/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=yellow)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/stargazers)
-[![Forks](https://img.shields.io/github/forks/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=orange)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/fork)
-[![Size](https://img.shields.io/github/repo-size/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=green)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/)   
-[![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/graphs/commit-activity)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/sbatrow/DarkV2ray-Manager-Bot)   
-[![Contributors](https://img.shields.io/github/contributors/TeamUltroid/Ultroid?style=flat-square&color=green)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/graphs/contributors)        
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/blob/main/LICENSE)
 
 
 ## :heavy_exclamation_mark: Requerimientos
