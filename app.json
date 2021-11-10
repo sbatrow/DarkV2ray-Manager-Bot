@@ -14,22 +14,22 @@
     "success_url": "https://t.me/YouTech_Support",
     "env": {
         "ADMINS": {
-            "description": "Your Telegram ID use @my_id_bot"
+            "description": "Your Telegram ID use @my_id_bot",
             "value": ""
             "required": true
         },
         "CHROMEDRIVER_PATH": {
             "description": "crome path"
-            "value": "/app/.chromedriver/bin/chromedriver"
+            "value": "/app/.chromedriver/bin/chromedriver",
             "required": true
         },
         "IP": {
-            "description": "Your vps ip"
+            "description": "Your vps ip",
             "value": ""
             "required": true
         },
         "TOKEN": {
-            "description": "Your telegram bot token"
+            "description": "Your telegram bot token",
             "value": ""
             "required": true
         }
