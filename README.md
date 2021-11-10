@@ -11,6 +11,9 @@
 *  user on/off
 *  heroku bot hosting
 
+# Tutorial 
+
+[<img src="https://telegra.ph/file/1725a47f884f6c09c7a71.jpg" width="50%">](https://www.youtube.com/channel/UC3E-UaRr8a5vndVOmlnLjjg/?sub_confirmation=1)
 
 [![Stars](https://img.shields.io/github/stars/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=yellow)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/stargazers)
 [![Forks](https://img.shields.io/github/forks/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=orange)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/fork)
