@@ -387,6 +387,7 @@ show_xray_status() {
 }
 
 show_usage() {
+    clear
     echo "Dark-V2ray-Manager management script usage method: "
     echo "------------------------------------------"
     echo "Dark-V2ray-Manager start        - Launch Dark-V2ray-Manager bot"
@@ -399,6 +400,7 @@ show_usage() {
 }
 
 show_menu() {
+    clear
     echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
     echo -e "\E[44;1;37m               ♻️ DARKV2RAY MANAGER ♻️              \E[0m"
     echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -428,7 +430,7 @@ show_menu() {
 	4) check_install && uninstall
         ;;
         5) check_install && start
-		;;
+	;;
         6) check_install && stop
         ;;
         *) echo -e "${red}Please enter the correct number [0-14]${plain}"
