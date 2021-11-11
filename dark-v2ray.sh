@@ -346,15 +346,15 @@ show_status() {
     check_status
     case $? in
         0)
-            echo -e "Panel status: ${green}Already running${plain}"
+            echo -e "Bot status: ${green}Already running${plain}"
             show_enable_status
             ;;
         1)
-            echo -e "Panel status: ${yellow}Not running${plain}"
+            echo -e "Bot status: ${yellow}Not running${plain}"
             show_enable_status
             ;;
         2)
-            echo -e "Panel status: ${red}Not Installed${plain}"
+            echo -e "Bot status: ${red}Not Installed${plain}"
     esac
     show_xray_status
 }
