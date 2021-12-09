@@ -13,7 +13,7 @@
 
 # Tutorial 
 
-<iframe src="//player.vimeo.com/video/19339941" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[<img src="https://telegra.ph/file/1725a47f884f6c09c7a71.jpg" width="70%">](https://vimeo.com/654796192)
 
 [![Stars](https://img.shields.io/github/stars/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=yellow)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/stargazers)
 [![Forks](https://img.shields.io/github/forks/sbatrow/DarkV2ray-Manager-Bot?style=flat-square&color=orange)](https://github.com/sbatrow/DarkV2ray-Manager-Bot/fork)
