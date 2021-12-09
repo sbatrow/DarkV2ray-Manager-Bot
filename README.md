@@ -1,7 +1,8 @@
-# 📌DarkV2ray-Manager-Bot 0.1
+# 📌DarkV2ray-Manager-Bot 0.2
 
-* UPDATE 11/11/2021
+* UPDATE 12/09/2021
 
+*  v2ray link fixed
 *  Telegram bot 
 *  v2ray Test user
 *  expired date 
