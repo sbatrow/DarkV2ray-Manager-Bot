@@ -14,7 +14,7 @@
 # Tutorial 
 
 <P>
-<span><a href="https://vimeo.com/manage/videos/654796192"><img src="https://user-images.githubusercontent.com/83800532/144345002-c3ec5251-f723-4a81-bcaa-ad4579562218.png" alt=""width="50"height="50"/></a></span>
+<span><a href="https://vimeo.com/654796192"><img src="https://user-images.githubusercontent.com/83800532/144345002-c3ec5251-f723-4a81-bcaa-ad4579562218.png" alt=""width="50"height="50"/></a></span>
 </P>
 
 [<img src="https://telegra.ph/file/1725a47f884f6c09c7a71.jpg" width="70%">](https://vimeo.com/654796192)
