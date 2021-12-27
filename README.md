@@ -12,6 +12,8 @@
 *  user on/off
 *  heroku bot hosting
 
+# 📌Some people can't connect to sni and you need a domain
+
 # Tutorial 
 
 <P>
