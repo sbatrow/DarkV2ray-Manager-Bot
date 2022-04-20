@@ -1,3 +1,39 @@
+#🎁 Donate DarkSSH
+<details>
+ 
+ 
+ <summary><p><b> 👉 Click To View <b>⚡️ 🎁 Donate to give away great projects 🎁</b></b></p></summary>
+ 
+ ✅ USDT (ERC20)
+
+🔗 Link : 
+ ```
+0x131356670439b225da71c86d8ce4672189595de4
+ ```
+ 
+ ✅ BTC (BTC)
+
+🔗 Link : 
+ ```
+1CrbfVWq6CJvbGw8oAEgtQaKb4kEHxNReJ
+ ```
+ 
+ ✅ TRX (TRC20)
+
+🔗 Link : 
+ ```
+TPPcVjDrKLzD3VDhjhKsPWwsRMTz6GAsZR
+ ```
+ 
+ ✅ BUSD (BEP20)
+
+🔗 Link : 
+ ```
+0x131356670439b225da71c86d8ce4672189595de4
+ ```
+
+</details>
+
 # 📌DarkV2ray-Manager-Bot 0.2
 
 * UPDATE 12/09/2021
