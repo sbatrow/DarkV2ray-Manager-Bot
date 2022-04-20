@@ -1,4 +1,4 @@
-#🎁 Donate DarkSSH
+# 🎁 Donate DarkSSH
 <details>
  
  
