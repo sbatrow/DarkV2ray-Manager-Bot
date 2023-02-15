@@ -10,7 +10,7 @@
         "DarkV2ray"
     ],
     "website": "https://youtech.live",
-    "repository": "https://github.com/sbatrow/DarkV2ray-Manager-Bot",
+    "repository": "https://github.com/adelpcv2/DarkV2ray-Manager-Bot?organization=adelpcv2&organization=adelpcv2",
     "success_url": "https://t.me/YouTech_Support",
     "env": {
         "ADMINS": {
